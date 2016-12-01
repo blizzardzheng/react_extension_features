@@ -1,6 +1,5 @@
 # WebIde Extensions Component
 
-WebIde Extensions Component
 
 + develop on react cdk 
 + add webpack setting for pack multiple dist
