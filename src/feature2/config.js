@@ -1,6 +1,7 @@
 export default {
   name: 'feature2',
   type: 'insert',
-  placeHolder: 'siderBar',
+  desc: 'this is feature2',
+  placeHolder: 'siderBar1',
 };
 

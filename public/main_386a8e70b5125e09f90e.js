@@ -1,0 +1,1 @@
+!function(e){function r(u){if(t[u])return t[u].exports;var a=t[u]={exports:{},id:u,loaded:!1};return e[u].call(a.exports,a,a.exports,r),a.loaded=!0,a.exports}var t={};return r.m=e,r.c=t,r.p="",r(0)}([function(e,r){"use strict";e.exports={feature1:"/feature1",feature2:"/feature2",feature3:"/feature3"}}]);

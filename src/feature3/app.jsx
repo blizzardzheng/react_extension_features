@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App = ({ children, onClick, style = {} }) => (
-  <div> this is required feature</div>
+  <div> this is third feature</div>
 );
 
 App.propTypes = {

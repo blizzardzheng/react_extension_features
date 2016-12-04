@@ -18,8 +18,9 @@
     "test-watch": "npm run testonly -- --watch --watch-extensions js",
     "storybook": "start-storybook -p 9010",
     "start": "start-storybook -p 9010",
-    "server": "NODE_ENV=development nodemon --watch server --exec babel-node server/main",
+    "server": "NODE_ENV=development nodemon --watch server --watch src --exec babel-node server/main",
     "publish-storybook": "bash .scripts/publish_storybook.sh",
+    "build-watch": "NODE_ENV=development webpack --config webpack.extensions.config.js --progress --profile --colors --watch src",    
     "build": "NODE_ENV=production webpack --config webpack.extensions.config.js --progress --profile --colors",
     "build-storybook": "build-storybook -o .out"
   },
@@ -59,6 +60,10 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "fs-promise": "^1.0.0",
     "nodemon": "^1.11.0",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-actions": "^1.1.0",
+    "redux-thunk": "^2.1.0",
     "webpack-cleanup-plugin": "^0.4.1"
   },
   "main": "dist/index.js",

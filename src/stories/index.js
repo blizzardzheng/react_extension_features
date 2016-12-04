@@ -1,13 +1,11 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
-import App from '../feature1/app.jsx';
+import App from '../feature1/app';
 
-storiesOf('App', module)
+
+storiesOf('first feature', module)
   .add('default view', () => (
-    <App onClick={ action('button clicked') }>Hello</App>
-  ))
-  .add('some emojies as the text', () => (
-    <App>😀 😎 👍 💯</App>
+    <App onClickDebug={ action('button clicked') }>Hello</App>
   ))
   .add('custom styles', () => {
     const style = {
